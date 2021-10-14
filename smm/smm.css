@@ -46,7 +46,7 @@ section {
 
 .page1 {
     /*    height: 130vh;*/
-    background-image: url(/media/smm/p1_bg.jpg);
+    background-image: url(/bmcNew/media/smm/p1_bg.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -175,7 +175,7 @@ section {
 
 .page2 {
     /*    height: 130vh;*/
-    background-image: url(/media/smm/p2_bg.jpg);
+    background-image: url(/bmcNew/media/smm/p2_bg.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -352,7 +352,7 @@ tr:not(:first-child) > td {
 
 .page3 {
     /*    height: 150vh;*/
-    background-image: url(/media/smm/p3_bg.jpg);
+    background-image: url(/bmcNew/media/smm/p3_bg.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -462,7 +462,7 @@ tr:not(:first-child) > td {
 
 
 .page4 {
-    background-image: url(/media/smm/p4_bg.jpg);
+    background-image: url(/bmcNew/media/smm/p4_bg.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
