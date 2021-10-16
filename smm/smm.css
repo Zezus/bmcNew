@@ -456,7 +456,14 @@ tr:not(:first-child) > td {
     margin: 0 auto;
     position: relative;
     width: calc(250px + 200 * ((100vw - 320px) / (1280 - 320)));
-    ;
+}
+.swiper-pagination-bullet{
+    background: #a7a7a7!important;
+    opacity: 0.5!important;
+}
+.swiper-pagination-bullet-active{
+    background: #0076ff!important;
+    opacity: 1!important;
 }
 
 
