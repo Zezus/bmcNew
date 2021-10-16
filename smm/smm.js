@@ -15,5 +15,18 @@ AOS.init();
 //observer.observe(line_progress);
 
 new Splide( '.p3_slider' ).mount();
-new Splide( '.p3_slider_phone' ).mount();
 
+var swiper = new Swiper(".p3_flex1_phone", {
+    effect: "cube",
+    loop: true,
+    grabCursor: true,
+    cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});
