@@ -17,9 +17,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.3.1/dist/css/splide.min.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-video@0.5.2/dist/css/splide-extension-video.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -144,19 +142,19 @@
                         </div>
                     </div>
 
-                    <div class="splide p3_flex1_phone">
-                        <div class="splide__track">
-                            <ul class="splide__list">
-                                <li class="splide__slide p3f1_item" data-splide-youtube="https://www.youtube.com/embed/m51LZLiivZQ">
-                                </li>
-                                <li class="splide__slide p3f1_item" data-splide-youtube="https://www.youtube.com/embed/m51LZLiivZQ">
-                                    <img src="/bmcNew/media/video/p3_videoback.jpeg">
-                                </li>
-                                <li class="splide__slide p3f1_item" data-splide-youtube="https://www.youtube.com/embed/m51LZLiivZQ">
-                                    <img src="/bmcNew/media/video/p3_videoback.jpeg">
-                                </li>
-                            </ul>
+                    <div class="swiper p3_flex1_phone">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <iframe class="iframe" src="https://www.youtube.com/embed/m51LZLiivZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="swiper-slide">
+                                <iframe class="iframe" src="https://www.youtube.com/embed/m51LZLiivZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="swiper-slide">
+                                <iframe class="iframe" src="https://www.youtube.com/embed/m51LZLiivZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                         </div>
+                        <div class="swiper-pagination"></div>
                     </div>
 
                     <div class="p3_text2">2D | 3D - АНИМАЦИОННЫЕ РОЛИКИ</div>
@@ -208,7 +206,7 @@
 
 </html>
 
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.3.1/dist/js/splide.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-video@0.5.2/dist/js/splide-extension-video.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
 
 <script src="video.js"></script>
